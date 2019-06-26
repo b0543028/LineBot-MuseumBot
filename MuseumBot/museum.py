@@ -56,9 +56,9 @@ gmaps = googlemaps.Client(key='GOOGLE_MAP_API_KEY')
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('FQuu/JELd3EXcw9JvciM4MKCgJ3BvqKDYtXwLXv0LnCHXWx47K38A65hbu1wCOkuBzOAyUSfBCqS+aZEtkySiEqsBdlRPTiz3MOm4oM5n1PHCwapeUBsUXaSfQOidaN/mwbIWASpr8uQEkfqp5yDWQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('679022ac8dd0a03b3ca656db352348dd')
-liff_api = LIFF('FQuu/JELd3EXcw9JvciM4MKCgJ3BvqKDYtXwLXv0LnCHXWx47K38A65hbu1wCOkuBzOAyUSfBCqS+aZEtkySiEqsBdlRPTiz3MOm4oM5n1PHCwapeUBsUXaSfQOidaN/mwbIWASpr8uQEkfqp5yDWQdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('CHANNEL_ACCESS_TOKEN')
+handler = WebhookHandler('LINE_CHANNEL_SECRET')
+liff_api = LIFF('CHANNEL_ACCESS_TOKEN')
 
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 Yilan_list = ['羅東','礁溪','宜蘭']
