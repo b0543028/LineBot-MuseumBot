@@ -64,7 +64,11 @@
   ![image](https://github.com/ArrowHuang/LineBot-MuseumBot/blob/master/Screenshot/LineBot2.png)    
   <p align="center">圖6</p>   
   
-* **<h3>第三部分為Django並放在heroku免費雲端服務上面</h3>**  
-  * 這部分我們利用Django假設網站並結合爬蟲程式到[勁好行的網站](http://e-landbus.tw/eLandBus/RouteQuery.aspx)爬取即時公車資訊。  
-  * 我們將程式打包好放在*Realtime Bus Info*檔案中的*django_web_file.7z*中。  
+* **<h3>第三部分為Firebase服務</h3>**    
+  * 這部分使用了Google Firebase的服務，使用前先至[Firebase的網站](https://firebase.google.com/)註冊並創建一個新的項目。    
+  * 有什麼疑問可以參考[Firebase的說明文件](https://firebase.google.com/docs)  
+     
+* **<h3>第四部分為Django並放在heroku免費雲端服務上面</h3>**  
+  * 這部分我們利用Django假設網站並結合爬蟲程式到[勁好行的網站](http://e-landbus.tw/eLandBus/RouteQuery.aspx)爬取即時公車資訊。    
+  * 我們將程式打包好放在*Realtime Bus Info*檔案中的*django_web_file.7z*中。   
   * 使用者可以按照*Django架設網站並上傳Heroku教學.pdf*將Django放在Heroku上面。
