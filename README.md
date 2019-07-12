@@ -1,5 +1,5 @@
 # MuseumBot博物館導覽Line聊天機器人
-本專案設計了一個博物館導覽Line聊天機器人。這個專案主要分成三個部分：  
+本專案設計了一個博物館導覽Line聊天機器人。這個專案主要分成四個部分：  
 * **<h3>第一部分為Dialogflow部分</h3>**  
   * 這部分使用了Google Dialogflow的服務，使用前先至[Dialogflow的網站](https://dialogflow.com/)註冊並創建一個新的項目。  
   * 而*Dialogflow*中的*MuseumBot_Dialogflow.zip*是將我利用蘭陽博物館網站上的QA集訓練的intent以及entities打包下來，如果要使用的話需要到剛剛創建的項目的設定中找到**Export and Import**，並選擇**IMPORT FROM ZIP**將剛剛的zip導入(如圖1)。  
