@@ -15,6 +15,13 @@
 * **<h3>第二部分為建置LineBot</h3>**  
   * 這部分使用了Line聊天機器人的服務，使用前先至[Line Developer的網站](https://developers.line.biz/en/)註冊並創建一個新的項目。
   * 在*MuseumBot*檔案中的*museum.py*程式裡面需要輸入**CHANNEL_ACCESS_TOKEN**以及**CHANNEL_SECRET**，可以在剛剛創建的項目中找到(如圖3圖4)。
+  * 需要修改的程式碼位置：
+   - 27:FIREBASE_API_KEY(FIREBASE的API)
+   - 42:DIALOG_API_KEY(DIALOGFLOW的API)
+   - 55:GOOGLE_MAP_API_KEY(GOOGLEMAP的API)
+   - 59:61:CHANNEL_ACCESS_TOKEN(LINE_DEVELOPER中取得)
+   - 60:LINE_CHANNEL_SECRET(LINE_DEVELOPER中取得)
+   - 154:FIREBASE_REALTIME_URL(FIREBASE_REALTIME上面的URL)
       
   ![image](https://github.com/ArrowHuang/LineBot-MuseumBot/blob/master/Screenshot/LineBot1.png)    
   <p align="center">圖3</p>   
